@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
         url('/home_stj.jpg');
     background-size: cover;
     color: white;
@@ -13,29 +13,18 @@
 
 .container h1 {
     font-size: 70px;
+    color: var(--pc)
 }
 
 .container h2 {
     font-size: 25px;
     margin-top: 15px;
-    color: var(--pc);
+    color: white;
 }
 
 .container p {
     font-size: 20px;
     text-align: center;
     margin: 25px 0 30px 0;
-    line-height: 1.5;
-}
-
-.container a {
-    display: block;
-    text-decoration: none;
-    display: block;
-    background-color: var(--pc);
-    color: white;
-    width: 150px;
-    text-align: center;
-    padding: 15px 0;
-    border-radius: 100vh;
+    line-height: 2;
 }

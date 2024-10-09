@@ -1,0 +1,55 @@
+.wrapper {
+    padding-bottom: 100px;
+}
+
+.wrapper h2 {
+    text-align: center;
+    color: var(--pc);
+    font-size: 30px;
+    margin: 40px 0 50px 0;
+}
+
+.child {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.child.rev {
+    flex-direction: row-reverse;
+}
+
+.child div {
+    flex: 1;
+}
+
+.child div:nth-child(2) {
+    height: 350px;
+    border-radius: 10px;
+    background-size: 100% 100%;
+}
+
+.child p {
+    font-size: 18px;
+    line-height: 2;
+    text-align: justify;
+}
+
+.about_one {
+    background-image: url("/about_one.jpg");
+}
+
+.about_two {
+    background-image: url("/about_two.jpg");
+}
+
+.about_three {
+    background-image: url("/about_three.jpg");
+}
+
+.about_four {
+    background-image: url("/about_four.jpg");
+}

@@ -1,0 +1,9 @@
+.container {
+    border: 1px solid #ddd;
+    border-left: 5px solid var(--pc);
+    margin-bottom: 10px;
+    padding: 35px;
+    font-size: 20px;
+    line-height: 1.5;
+    border-radius: 10px;
+}

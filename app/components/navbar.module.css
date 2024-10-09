@@ -1,0 +1,36 @@
+.wrapper {
+    width: 100%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+
+.container {
+    width: 75%;
+    height: 90px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.drop {
+    height: 90px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.heading p {
+    font-size: 14px;
+    color: #555;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+}
