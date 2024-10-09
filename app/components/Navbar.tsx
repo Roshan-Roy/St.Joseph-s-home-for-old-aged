@@ -36,7 +36,7 @@ const Navbar = () => {
                         <p>Home for old aged</p>
                     </div>
                     <div className={styles.links}>
-                        {links.map(e => <Links name={e.name} path={e.path} />)}
+                        {links.map((e, i) => <Links key={`${e} ${i}`} name={e.name} path={e.path} />)}
                     </div>
                 </div>
             </div>

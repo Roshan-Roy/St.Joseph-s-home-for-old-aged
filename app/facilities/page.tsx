@@ -23,7 +23,7 @@ const page = () => {
         <div className={styles.wrapper}>
             <h2>Our facilities</h2>
             <div className={styles.container}>
-                {facilities.map(e => <Card text={e} />)}
+                {facilities.map((e, i) => <Card key={`${e} ${i}`} text={e} />)}
             </div>
         </div>
     )
