@@ -5,7 +5,7 @@ const page = () => {
         <div className={styles.wrapper}>
             <h2>About us</h2>
             <div className={styles.child}>
-                <div className={styles.one}><p>St. Joseph's Home for the Aged is an organization managed by the sisters of Our Lady of Grace and Compassion. It is a Registered Society known as "Grace and Compassion Benedictine Society." The Home provides a loving and homely atmosphere to those who are on the 'sunset' of their life. This home is an outcome of the inspiration drawn from the motto of the congregation "Prayer and Work."</p></div>
+                <div className={styles.one}><p>St. Joseph&apos;s Home for the Aged is an organization managed by the sisters of Our Lady of Grace and Compassion. It is a Registered Society known as &quot;Grace and Compassion Benedictine Society.&quot; The Home provides a loving and homely atmosphere to those who are on the &apos;sunset&apos; of their life. This home is an outcome of the inspiration drawn from the motto of the congregation &quot;Prayer and Work.&quot;</p></div>
                 <div className={styles.about_one}></div>
             </div>
             <div className={`${styles.child} ${styles.rev}`}>
@@ -17,7 +17,7 @@ const page = () => {
                 <div className={styles.about_three}></div>
             </div>
             <div className={`${styles.child} ${styles.rev}`}>
-                <div className={styles.one}><p>We encourage camaraderie among residents through recreational activities. Daily programs cater to both physical and mental well-being, enhancing residents' lives. The most cherished aspect is our liberating atmosphere, where every resident can feel truly at home and cherished.</p></div>
+                <div className={styles.one}><p>We encourage camaraderie among residents through recreational activities. Daily programs cater to both physical and mental well-being, enhancing residents&apos; lives. The most cherished aspect is our liberating atmosphere, where every resident can feel truly at home and cherished.</p></div>
                 <div className={styles.about_four}></div>
             </div>
         </div>

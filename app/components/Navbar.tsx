@@ -32,7 +32,7 @@ const Navbar = () => {
             <div className={styles.wrapper}>
                 <div className={styles.container}>
                     <div className={styles.heading}>
-                        <h3>St.Joseph's</h3>
+                        <h3>St.Joseph&apos;s</h3>
                         <p>Home for old aged</p>
                     </div>
                     <div className={styles.links}>
