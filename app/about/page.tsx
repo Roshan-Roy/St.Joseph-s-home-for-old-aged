@@ -13,7 +13,7 @@ const page = () => {
                 <div className={styles.about_two}></div>
             </div>
             <div className={styles.child}>
-                <div className={styles.one}><p>St. Joseph's Home is a model of geriatric-friendly living, offering exceptional services within a vibrant community. Our dedicated and well-trained staff ensures each resident receives the care they deserve. Nestled in a lush, spacious campus, our residents can enjoy the tranquility of nature. Our culinary team takes pride in serving diverse, healthy cuisine in communal dining areas.</p></div>
+                <div className={styles.one}><p>St. Joseph&apos;s Home is a model of geriatric-friendly living, offering exceptional services within a vibrant community. Our dedicated and well-trained staff ensures each resident receives the care they deserve. Nestled in a lush, spacious campus, our residents can enjoy the tranquility of nature. Our culinary team takes pride in serving diverse, healthy cuisine in communal dining areas.</p></div>
                 <div className={styles.about_three}></div>
             </div>
             <div className={`${styles.child} ${styles.rev}`}>
