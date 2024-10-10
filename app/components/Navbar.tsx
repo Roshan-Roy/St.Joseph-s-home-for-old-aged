@@ -46,7 +46,7 @@ const Navbar = () => {
                         {shown ? <IoMdClose className={styles.close} /> : <GiHamburgerMenu className={styles.ham} />}
                     </div>
                     <div className={shown ? `${styles.links} ${styles.shown}` : styles.links}>
-                        {links.map((e, i) => <Links key={`${e} ${i}`} name={e.name} path={e.path} />)}
+                        {links.map((e, i) => <Links key={`${e} ${i}`} name={e.name} path={e.path} func={toggleShown} />)}
                     </div>
                 </div>
             </div >

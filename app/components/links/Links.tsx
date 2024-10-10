@@ -2,13 +2,14 @@ import styles from "./link.module.css"
 import Link from "next/link"
 import { usePathname } from "next/navigation";
 
-const Links = ({ name, path }: {
+const Links = ({ name, path, func }: {
     name: string;
     path: string;
+    func: any;
 }) => {
     const pathName = usePathname()
     return (
-        <Link href={path} className={pathName === path ? `${styles.link} ${styles.active}` : styles.link}>{name}</Link>
+        <Link href={path} className={pathName === path ? `${styles.link} ${styles.active}` : styles.link} onClick={func}>{name}</Link>
     )
 }
 

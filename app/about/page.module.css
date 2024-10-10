@@ -53,3 +53,29 @@
 .about_four {
     background-image: url("/about_four.jpg");
 }
+
+@media only screen and (max-width: 900px) {
+    .wrapper h2 {
+        font-size: 25px;
+        margin:30px 0 0 0;
+    }
+
+    .child p {
+        font-size: 16px;
+    }
+
+    .child {
+        display: block;
+        margin-bottom: 0;
+        width: 80%;
+    }
+
+    .child div:nth-child(2) {
+        height: 250px;
+        border-radius: 10px;
+        background-size: 100% 100%;
+    }
+    .child div{
+        margin: 25px 0;
+    }
+}
