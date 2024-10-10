@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 const Links = ({ name, path, func }: {
     name: string;
     path: string;
-    func: any;
+    func: () => {};
 }) => {
     const pathName = usePathname()
     return (
