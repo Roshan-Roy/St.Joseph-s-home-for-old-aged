@@ -40,7 +40,7 @@ const Navbar = () => {
                 <div className={styles.container}>
                     <div className={styles.heading}>
                         <h3>St.Joseph&apos;s</h3>
-                        <p>Home for old aged</p>
+                        <p>Home for aged</p>
                     </div>
                     <div className={styles.btns} onClick={toggleShown}>
                         {shown ? <IoMdClose className={styles.close} /> : <GiHamburgerMenu className={styles.ham} />}
