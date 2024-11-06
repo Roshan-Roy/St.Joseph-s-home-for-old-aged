@@ -39,19 +39,19 @@
 }
 
 .about_one {
-    background-image: url("/about_one.jpg");
+    background-image: url("/St.Joseph-s-home-for-old-aged/about_one.jpg");
 }
 
 .about_two {
-    background-image: url("/about_two.jpg");
+    background-image: url("/St.Joseph-s-home-for-old-aged/about_two.jpg");
 }
 
 .about_three {
-    background-image: url("/about_three.jpg");
+    background-image: url("/St.Joseph-s-home-for-old-aged/about_three.jpg");
 }
 
 .about_four {
-    background-image: url("/about_four.jpg");
+    background-image: url("/St.Joseph-s-home-for-old-aged/about_four.jpg");
 }
 
 @media only screen and (max-width: 900px) {
